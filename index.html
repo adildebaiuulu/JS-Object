@@ -6,7 +6,84 @@
     <title>Document</title>
 </head>
 <body>
-   
-    
+    <script>
+        const car = {
+            brand: 'Toyota',
+            model: 'Camry',
+            year: 1996,
+            color: 'red',
+        };
+        console.log(car);
+        console.log(car.year)
+
+        car.year = 2005;                   
+        console.log(car);
+        console.log(car.year);        
+        
+        car.color = ('color red');
+        console.log(car);
+        console.log(car.color);
+
+        delete car. model;
+        console.log(car);
+
+        car.displayInfo = 'car',
+        console.log(car);
+        console.log(car.displayInfo);
+
+        const person = {
+            name: 'Arsen',
+            adress: 'g.Bishkek, str. Kurmanjan-Datka',
+
+        }
+        console.log(person);
+        ;console.log(person.adress);
+
+        car.newProp = {
+            let: 'weight', 
+            
+        }
+        console.log(car);
+        console.log( car [car.newProp] = 5000);
+        
+        
+        const home = {
+            room: 130,
+            salon: 85,
+            bedroom: 45,
+        }
+        console.log(home);
+        console.log(home.room ) ;
+        console.log(home.bedroom ) ;
+        console.log(home.salon ) ;
+
+
+        const createStudent = {
+            name: 'Asan',
+            age: 18,
+            
+        }
+
+        console.log(createStudent);
+        console.log(createStudent.name);
+        console.log(createStudent.age);
+
+        delete createStudent. age;
+        console.log(createStudent);
+        
+        createStudent.age = 'student',
+        console.log(createStudent.age);
+
+
+        const Animal = {
+            type: 'hold',
+            sound: 'loud',
+        };
+        console.log(Animal);
+        console.log(Animal.sound);
+        console.log(Animal.type);
+        
+
+    </script>
 </body>
 </html>
